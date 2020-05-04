@@ -10,7 +10,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>springfundamentals.theproject.org</groupId>
+    <groupId>org.theproject.springfundamentals</groupId>
     <artifactId>propertiesprespringboot</artifactId>
     <version>1.0-SNAPSHOT</version>
 
