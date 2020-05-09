@@ -11,9 +11,9 @@
     </parent>
 
     <groupId>org.theproject.springfundamentals</groupId>
-    <artifactId>propertiesprespringboot</artifactId>
+    <artifactId>beanswithxmlprespringboot</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Properties pre-Spring Boot</name>
+    <name>Beans with XML pre-Spring Boot</name>
 
     <dependencies>
 

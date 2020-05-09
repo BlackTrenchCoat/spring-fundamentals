@@ -11,7 +11,7 @@
 	<groupId>org.theproject.springfundamentals</groupId>
 	<artifactId>propertieswithspringboot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>propertieswithspringboot</name>
+	<name>Properties with Spring Boot</name>
 	<description>Properties with Spring Boot</description>
 
 	<properties>

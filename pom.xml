@@ -17,6 +17,7 @@
 	<modules>
 		<module>propertiesprespringboot</module>
 		<module>propertieswithspringboot</module>
+		<module>beanswithxmlprespringboot</module>
 	</modules>
 
 	<build>

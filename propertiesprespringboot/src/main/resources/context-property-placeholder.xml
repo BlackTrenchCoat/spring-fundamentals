@@ -5,8 +5,4 @@
 
     <context:property-placeholder location="hi.properties"/>
 
-    <bean class="org.theproject.springfundamentals.propertiesprespringboot.HelloSPGContextPropertyPlaceholderHelperBean">
-        <constructor-arg value="${greeting}"/>
-    </bean>
-
 </beans>
