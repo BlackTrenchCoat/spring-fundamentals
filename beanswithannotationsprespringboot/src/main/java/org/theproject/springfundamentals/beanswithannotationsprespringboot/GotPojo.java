@@ -1,4 +1,4 @@
-package org.theproject.springfundamentals.beanswithannotations;
+package org.theproject.springfundamentals.beanswithannotationsprespringboot;
 
 import org.springframework.stereotype.Component;
 

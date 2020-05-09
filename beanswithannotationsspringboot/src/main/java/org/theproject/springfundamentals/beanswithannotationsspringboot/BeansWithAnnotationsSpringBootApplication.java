@@ -1,4 +1,4 @@
-package org.theproject.springfundamentals.beanswithannotations;
+package org.theproject.springfundamentals.beanswithannotationsspringboot;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -7,13 +7,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Component;
 
 @SpringBootApplication
-public class BeansWithAnnotationsApplication {
+public class BeansWithAnnotationsSpringBootApplication {
 
 	@Autowired
 	GotPojo gotPojo;
 
 	public static void main(String[] args) {
-		SpringApplication.run(BeansWithAnnotationsApplication.class, args);
+		SpringApplication.run(BeansWithAnnotationsSpringBootApplication.class, args);
 	}
 
 	@Component

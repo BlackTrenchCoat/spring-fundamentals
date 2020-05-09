@@ -1,4 +1,4 @@
-package org.theproject.springfundamentals.beanswithannotations;
+package org.theproject.springfundamentals.beanswithannotationsspringboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
