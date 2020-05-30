@@ -8,4 +8,18 @@
         <constructor-arg index="1" value="SPG"/>
     </bean>
 
+<!--
+    <bean id="applicationPojo" class="org.theproject.springfindamentals.beanswithxmlprespringboot.ApplicationPOJO">
+        <constructor-arg value="Hello"/>
+        <constructor-arg value="SPG"/>
+    </bean>
+-->
+
+<!--
+    <bean id="applicationPojo" class="org.theproject.springfindamentals.beanswithxmlprespringboot.ApplicationPOJO">
+        <constructor-arg name="salutation" value="Hello"/>
+        <constructor-arg name="recipient" value="SPG"/>
+    </bean>
+-->
+
 </beans>
