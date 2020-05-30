@@ -5,4 +5,9 @@
 
     <context:property-placeholder location="hi.properties"/>
 
+    <bean class="org.theproject.springfundamentals.propertiesprespringboot.HelloSPGContextPropertyPlaceholderHelperBean">
+        <constructor-arg name="recipient" value="${recipient}"/>
+        <constructor-arg name="salutation" value="${salutation}"/>
+    </bean>
+
 </beans>
