@@ -11,8 +11,9 @@ public class HelloSPGUtilPropertiesXML {
     public static void main(String args[]) {
         ApplicationContext context = new ClassPathXmlApplicationContext("util-properties.xml");
         Properties properties = context.getBean("properties", Properties.class);
-        String hi = properties.getProperty("greeting");
-        System.out.println(hi);
+        String s = properties.getProperty("salutation");
+        String r = properties.getProperty("recipient");
+        System.out.println(s + " " + r);
     }
 
 }

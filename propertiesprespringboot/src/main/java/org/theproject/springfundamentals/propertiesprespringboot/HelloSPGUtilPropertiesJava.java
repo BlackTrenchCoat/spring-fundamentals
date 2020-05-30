@@ -13,8 +13,9 @@ public class HelloSPGUtilPropertiesJava {
     public static void main(String args[]) {
         ApplicationContext context = new AnnotationConfigApplicationContext(UtilProperties.class);
         Properties properties = (Properties) context.getBean("properties");
-        String hi = properties.getProperty("greeting");
-        System.out.println(hi);
+        String s = properties.getProperty("salutation");
+        String r = properties.getProperty("recipient");
+        System.out.println(s + " " + r);
     }
 
 }
