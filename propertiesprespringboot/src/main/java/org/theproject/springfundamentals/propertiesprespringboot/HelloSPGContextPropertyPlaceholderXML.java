@@ -7,8 +7,8 @@ public class HelloSPGContextPropertyPlaceholderXML {
 
     public static void main(String args[]) {
         ApplicationContext context = new ClassPathXmlApplicationContext("context-property-placeholder.xml");
-        HelloSPGContextPropertyPlaceholderHelperBean bean =
-                context.getBean(HelloSPGContextPropertyPlaceholderHelperBean.class);
+        HelloSPGHelperBean bean =
+                context.getBean(HelloSPGHelperBean.class);
         System.out.println(bean.getGreeting());
     }
 }
