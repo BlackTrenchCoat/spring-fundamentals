@@ -3,20 +3,20 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="applicationPojo" class="org.theproject.springfindamentals.beanswithxmlprespringboot.ApplicationPOJO">
+    <bean id="applicationPojo" class="org.theproject.springfundamentals.beanswithxmlprespringboot.ApplicationPOJO">
         <constructor-arg index="0" value="Hello"/>
         <constructor-arg index="1" value="SPG"/>
     </bean>
 
 <!--
-    <bean id="applicationPojo" class="org.theproject.springfindamentals.beanswithxmlprespringboot.ApplicationPOJO">
+    <bean id="applicationPojo" class="org.theproject.springfundamentals.beanswithxmlprespringboot.ApplicationPOJO">
         <constructor-arg value="Hello"/>
         <constructor-arg value="SPG"/>
     </bean>
 -->
 
 <!--
-    <bean id="applicationPojo" class="org.theproject.springfindamentals.beanswithxmlprespringboot.ApplicationPOJO">
+    <bean id="applicationPojo" class="org.theproject.springfundamentals.beanswithxmlprespringboot.ApplicationPOJO">
         <constructor-arg name="salutation" value="Hello"/>
         <constructor-arg name="recipient" value="SPG"/>
     </bean>

@@ -1,4 +1,4 @@
-package org.theproject.springfindamentals.beanswithxmlprespringboot;
+package org.theproject.springfundamentals.beanswithxmlprespringboot;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
