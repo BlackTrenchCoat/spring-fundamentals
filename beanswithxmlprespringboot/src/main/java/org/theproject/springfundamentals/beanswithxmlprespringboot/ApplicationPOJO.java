@@ -1,4 +1,4 @@
-package org.theproject.springfindamentals.beanswithxmlprespringboot;
+package org.theproject.springfundamentals.beanswithxmlprespringboot;
 
 public class ApplicationPOJO {
 
